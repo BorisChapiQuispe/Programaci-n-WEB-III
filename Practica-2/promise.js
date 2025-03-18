@@ -12,7 +12,7 @@ async function main(){
         })
         console.log('Conectado a la Base de Datos');
         //ejecutando una consulta usando promesas
-        const [rows]=await connection.execute('INSERT INTO usuario (nombre,correo) VALUES(?,?)',['Andres ballesteros','andrewbay@gmail.com']);
+        const [rows]=await connection.execute('INSERT INTO usuario (nombre,correo) VALUES(?,?)',['Jorge Callampa','jorcalla@gmail.com']);
         console.log('Nuevo registro insertado el ID es: ',rows.insertId);
         //cerrando coneccion
         await connection.end();
