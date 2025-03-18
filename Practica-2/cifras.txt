@@ -1,0 +1,17 @@
+CIFRAS DE TIEMPO DE EJECUCIÓN
+
+basic.js
+Conectado a la Base de Datos
+Nuevo registro insertado el ID es:  15
+Basic Connection: 29.72ms
+-------------------------------------------------
+promise.js
+Conectado a la Base de Datos
+Nuevo registro insertado el ID es:  16
+Promise Conection: 30.132ms
+-------------------------------------------------
+pool.js
+Nuevo registro insertado el ID es:  17
+Pool Connection: 29.347ms
+-------------------------------------------------
+Cifras de tiempo de ejecucion, cada tiempo sin mucha variacion significante
